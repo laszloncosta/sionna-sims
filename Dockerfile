@@ -1,4 +1,4 @@
-FROM docker.io/tensorflow/tensorflow:2.14.0-gpu-jupyter
+FROM tensorflow/tensorflow:2.14.0-gpu-jupyter
 
 LABEL mainteiner="Laszlon Costa"
 LABEL description="Development enviroment to sionna with GPU support"
